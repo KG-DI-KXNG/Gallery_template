@@ -1,0 +1,59 @@
+@keyframes slideDown {
+	from {
+		top: -50px;
+		opacity: 0;
+	}
+	to {
+		top: 0;
+		opacity: 1;
+	}
+}
+
+@keyframes slideUp {
+	from {
+		bottom: -50px;
+		opacity: 0;
+	}
+	to {
+		bottom: 0;
+		opacity: 1;
+	}
+}
+
+@keyframes slideLeft {
+	from {
+		right: -50px;
+		opacity: 0;
+	}
+	to {
+		right: 0;
+		opacity: 1;
+	}
+}
+
+@keyframes hover {
+	from {
+		top: 90px;
+	}
+	to {
+		top: 100px;
+	}
+}
+
+@keyframes zoom {
+	from {
+		transform: scale(0);
+	}
+	to {
+		transform: scale(1);
+	}
+}
+
+@keyframes heartbeat {
+	from {
+		transform: scale(100%) rotate();
+	}
+	to {
+		transform: scale(110%) rotate(5deg);
+	}
+}

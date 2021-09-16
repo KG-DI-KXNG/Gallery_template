@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./assets/style.min.css" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+			integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+			crossorigin="anonymous"
+		/>
+		<title>Roshane's Photo Gallery</title>
+	</head>
+
+	<body>
+		<div class="navbar">
+			<nav>
+				<div class="brand">
+					<div class="brand__name home_page">Roshane's Gallery</div>
+				</div>
+				<ul>
+					<li><a href="#outdoor">Outdoor</a></li>
+					<li><a href="#indoor">Indoor</a></li>
+					<li><a href="#professional">Professional</a></li>
+					<li>
+						<a href="upload_photo.html" class="primary-btn">Upload Photo</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div class="container">
+			<div class="lead">
+				<h1 class="lead__title">Welcome to Roshane's Photo Gallery</h1>
+				<h5 class="lead__subtitle">Unique Photos Since 2021</h5>
+				<p class="lead__quick-info">
+					Roshane's Gallery has the highest quality and most unique images since
+					2021.<br />You can always depend on us to provide the highest quality
+					images on the internet.<br /><br />Upload your photo among
+					<span id="currentImages"></span>+ other images on our platform.
+				</p>
+				<div class="scrollDown">
+					<p>Scroll Down</p>
+					<div id="scrollDown__caret">&gt;&gt;</div>
+				</div>
+			</div>
+			<div class="section section-default" id="outdoor">
+				<h1 class="section__title">Outdoor Images</h1>
+				<h5 class="section__subtitle">#outdoor #outside #nature #spring</h5>
+				<div class="section__image-grid">
+					<img
+						src="./assets/images/image1.jpg"
+						alt=""
+						class="section__image-grid-image"
+					/>
+					<img
+						src="./assets/images/image2.jpg"
+						alt=""
+						class="section__image-grid-image"
+					/>
+					<img
+						src="./assets/images/image3.jpg"
+						alt=""
+						class="section__image-grid-image"
+					/>
+					<img
+						src="./assets/images/image1.jpg"
+						alt=""
+						class="section__image-grid-image"
+					/>
+					<img
+						src="./assets/images/image2.jpg"
+						alt=""
+						class="section__image-grid-image"
+					/>
+					<img
+						src="./assets/images/image3.jpg"
+						alt=""
+						class="section__image-grid-image"
+					/>
+				</div>
+			</div>
+			<div class="section section-default" id="indoor">
+				<h1 class="section__title">Indoor Images</h1>
+				<h5 class="section__subtitle">#indoor #inside #nature #spring</h5>
+				<div class="section__image-grid">
+					<img
+						src="./assets/images/image1.jpg"
+						alt=""
+						class="section__image-grid-image"
+					/>
+					<img
+						src="./assets/images/image2.jpg"
+						alt=""
+						class="section__image-grid-image"
+					/>
+					<img
+						src="./assets/images/image3.jpg"
+						alt=""
+						class="section__image-grid-image"
+					/>
+					<img
+						src="./assets/images/image1.jpg"
+						alt=""
+						class="section__image-grid-image"
+					/>
+					<img
+						src="./assets/images/image2.jpg"
+						alt=""
+						class="section__image-grid-image"
+					/>
+					<img
+						src="./assets/images/image3.jpg"
+						alt=""
+						class="section__image-grid-image"
+					/>
+				</div>
+			</div>
+			<div class="section section-default" id="professional">
+				<h1 class="section__title">Professional Images</h1>
+				<h5 class="section__subtitle">
+					#professional #business #wealthy #businessprofit
+				</h5>
+				<div class="section__image-grid">
+					<img
+						src="./assets/images/image1.jpg"
+						alt=""
+						class="section__image-grid-image"
+					/>
+					<img
+						src="./assets/images/image2.jpg"
+						alt=""
+						class="section__image-grid-image"
+					/>
+					<img
+						src="./assets/images/image3.jpg"
+						alt=""
+						class="section__image-grid-image"
+					/>
+					<img
+						src="./assets/images/image1.jpg"
+						alt=""
+						class="section__image-grid-image"
+					/>
+					<img
+						src="./assets/images/image2.jpg"
+						alt=""
+						class="section__image-grid-image"
+					/>
+					<img
+						src="./assets/images/image3.jpg"
+						alt=""
+						class="section__image-grid-image"
+					/>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="section section-default footer">
+				<div class="footer__author">Gallery Created By Roshane Johnson</div>
+				<div class="footer__copyright">Copyright &copy; 2021</div>
+			</div>
+		</footer>
+		<div class="modal">
+			<span class="modal__close"
+				><i class="fa fa-times" aria-hidden="true"></i
+			></span>
+			<div class="modal__image-wrapper">
+				<img src="" class="modal__image" />
+			</div>
+			<div class="modal__caption"></div>
+		</div>
+		<script src="./assets/scripts/index.js"></script>
+	</body>
+</html>

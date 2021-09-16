@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./assets/style.min.css" />
+		<title>Upload Your Photo's - Roshane's Photo Gallery</title>
+	</head>
+	<body style="overflow: hidden">
+		<div class="container-row uni">
+			<div class="form__wrapper">
+				<h1 class="section__title">Upload Your Photo(s)</h1>
+				<div class="form">
+					<div class="form__group">
+						<label for="image_caption">Image Title</label>
+						<input
+							type="text"
+							name="image_caption"
+							placeholder="eg; Beautiful Mountains"
+						/>
+					</div>
+					<div class="form__group">
+						<label for="hashtags">Hashtags</label>
+						<input
+							type="text"
+							name="hashtags"
+							placeholder="Seperate new hashtag with a comma (eg; #mountain, #outside, #nature)"
+						/>
+					</div>
+					<div class="form__group">
+						<label for="image_desc">Description</label>
+						<textarea
+							name="image_desc"
+							cols="30"
+							rows="10"
+							placeholder="Enter a brief description of the image being uploaded"
+						></textarea>
+					</div>
+					<div class="form__group">
+						<label for="image_upload">Upload photo(s) of your choice</label>
+						<input type="file" name="image_upload" />
+					</div>
+					<div class="form__group">
+						<a href="#" class="primary-btn upload_photo">Upload Photo(s)</a>
+					</div>
+				</div>
+			</div>
+			<div class="image__wrapper">
+				<div class="home__wrapper">
+					<a href="#" class="home_page">Home<br /></a>
+					<a href="#" class="home_page home__subtitle">Go back to home page</a>
+				</div>
+				<img src="./assets/images/image2.jpg" />
+			</div>
+		</div>
+		<script src="./assets/scripts/upload_photo.js"></script>
+	</body>
+</html>
